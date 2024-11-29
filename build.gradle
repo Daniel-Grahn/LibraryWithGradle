@@ -1,0 +1,37 @@
+plugins {
+    id 'java'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation("org.junit.jupiter:junit-jupiter:5.8.1")
+    testImplementation platform('org.junit:junit-bom:5.8.1')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+}
+
+test {
+    useJUnitPlatform()
+}
+
+task(run, dependsOn: 'classes', type: JavaExec) {
+    mainClass = 'ui.Main'
+    classpath = sourceSets.main.runtimeClasspath
+}
+
+//defaultTasks 'clean', 'compileJava', 'compileTestJava', 'run', 'test', 'javadoc', 'packaging'
+defaultTasks 'clean', 'compileJava', 'compileTestJava', 'run', 'test', 'javadoc', 'jar'
+
+task runDefaultTasks {
+    dependsOn 'clean', 'compileJava', 'compileTestJava', 'run', 'test' , 'javadoc', 'jar'
+}
+
+
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'ui.Main'
+    }
+}

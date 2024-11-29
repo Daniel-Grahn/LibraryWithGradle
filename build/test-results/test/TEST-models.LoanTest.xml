@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="models.LoanTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-11-29T12:17:53" hostname="DANIELS_BŽRBARA" time="0.022">
+  <properties/>
+  <testcase name="testDueDate()" classname="models.LoanTest" time="0.022"/>
+  <system-out><![CDATA[2024-12-13
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

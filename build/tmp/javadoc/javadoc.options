@@ -1,0 +1,17 @@
+-classpath 'C:\\Users\\Danie\\IdeaProjects\\LibraryWithGradle\\build\\classes\\java\\main;C:\\Users\\Danie\\IdeaProjects\\LibraryWithGradle\\build\\resources\\main'
+-d 'C:\\Users\\Danie\\IdeaProjects\\LibraryWithGradle\\build\\docs\\javadoc'
+-doctitle 'LibraryWithGradle API'
+-notimestamp 
+-quiet 
+-windowtitle 'LibraryWithGradle API'
+'C:\\Users\\Danie\\IdeaProjects\\LibraryWithGradle\\src\\main\\java\\models\\Book.java'
+'C:\\Users\\Danie\\IdeaProjects\\LibraryWithGradle\\src\\main\\java\\models\\BookCatalog.java'
+'C:\\Users\\Danie\\IdeaProjects\\LibraryWithGradle\\src\\main\\java\\models\\BookNotFoundException.java'
+'C:\\Users\\Danie\\IdeaProjects\\LibraryWithGradle\\src\\main\\java\\models\\Customer.java'
+'C:\\Users\\Danie\\IdeaProjects\\LibraryWithGradle\\src\\main\\java\\models\\Loan.java'
+'C:\\Users\\Danie\\IdeaProjects\\LibraryWithGradle\\src\\main\\java\\models\\LoanAlreadyExistsException.java'
+'C:\\Users\\Danie\\IdeaProjects\\LibraryWithGradle\\src\\main\\java\\models\\LoanNotFoundException.java'
+'C:\\Users\\Danie\\IdeaProjects\\LibraryWithGradle\\src\\main\\java\\models\\Material.java'
+'C:\\Users\\Danie\\IdeaProjects\\LibraryWithGradle\\src\\main\\java\\ui\\Main.java'
+'C:\\Users\\Danie\\IdeaProjects\\LibraryWithGradle\\src\\main\\java\\utilities\\GenderType.java'
+'C:\\Users\\Danie\\IdeaProjects\\LibraryWithGradle\\src\\main\\java\\utilities\\LoanStatus.java'
